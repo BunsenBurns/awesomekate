@@ -43,6 +43,8 @@
   margin-left:auto;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 1s;
+  position:absolute;
+  top:0vh;
 }
 #pH2 {
   transform: rotate(-10deg);
@@ -50,18 +52,24 @@
   margin-top:5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 1s;
+  position:absolute;
+  top:0vh;
 }
 #pH3{
   transform: rotate(-5deg);
   font-size:7.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 1s;
+  position:absolute;
+  top:0vh;
 }
 #pH4 {
   transform: rotate(5deg);
   font-size:7.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 1s;
+  position:absolute;
+  top:0vh;
 }
 #pH5 {
   transform: rotate(10deg);
@@ -69,6 +77,8 @@
   margin-top:5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 1s;
+  position:absolute;
+  top:0vh;
 }
 #pH6 {
   transform: rotate(20deg);
@@ -76,6 +86,8 @@
   margin-top:20vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 1s;
+  position:absolute;
+  top:0vh;
 }
 
 @media only screen and (max-width: 767px) {
@@ -83,13 +95,15 @@
     transform:rotate(0deg);
     margin-top:0vh;
     transition: all 1s;
+    position:absolute;
+    top:0vh;
   }
 }
 
 @media only screen and (min-width: 767px) {
 #pH1:hover,#pH6:hover {
-  margin-top:25vh;
-  font-size:9vh;
+  position: absolute;
+  top:5vh;
 }
 #pH2:hover,#pH5:hover {
   margin-top:10vh;
