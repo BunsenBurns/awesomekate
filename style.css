@@ -45,6 +45,7 @@
   transition: all 1s;
   position:absolute;
   top:0vh;
+  color:black;
 }
 #pH2 {
   transform: rotate(-10deg);
@@ -54,6 +55,7 @@
   transition: all 1s;
   position:absolute;
   top:0vh;
+  color:black;
 }
 #pH3{
   transform: rotate(-5deg);
@@ -62,6 +64,7 @@
   transition: all 1s;
   position:absolute;
   top:0vh;
+  color:black;
 }
 #pH4 {
   transform: rotate(5deg);
@@ -70,6 +73,7 @@
   transition: all 1s;
   position:absolute;
   top:0vh;
+  color:black;
 }
 #pH5 {
   transform: rotate(10deg);
@@ -79,6 +83,7 @@
   transition: all 1s;
   position:absolute;
   top:0vh;
+  color:black;
 }
 #pH6 {
   transform: rotate(20deg);
@@ -88,6 +93,7 @@
   transition: all 1s;
   position:absolute;
   top:0vh;
+  color:black;
 }
 
 @media only screen and (max-width: 767px) {
