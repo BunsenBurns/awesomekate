@@ -44,12 +44,15 @@
     <h3 id="pH5">PlacHold</h3>
   </div>
   <div class="col-md-2 col-sm-6">
-    <h3 id="pH6">PlacHold</h3>
+    <h3 onclick="sixToMid()" id="pH6">ClickTest</h3>
   </div>
+</div>
+<div class="row-12 text-center">
+<p id="sixClick" style="opacity:0; transition: all 1s;">You Clicked ClickTest</p>
 </div>
 </div>
     <!--End Page Content-->
-    Test
+    <p onclick="myFunction()" id="foo">Test</p>
     <!--Begin Footer-->
     <footer style="background-color:grey;>
       <div class="main-footer">
@@ -62,7 +65,14 @@
 <!--Import Remaining Scripts-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="vimeo.js"></script>
+<script>
+  function sixToMid() {
+    document.getElementById('pH6').style.cssText = "background-color: red; color: white; font-size: 44px";
+    document.getElementById('sixClick').style.cssText = "opacity:1;";
+  }
+  </script>
 <!--End Body-->
+
 </body>
 </html>
 
