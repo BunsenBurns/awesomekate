@@ -111,6 +111,10 @@
     top:0vh;
   }
 }
+@media only screen and (max-width: 5000px) {
+  #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
+    font-size:5vh;
+  }
 @media only screen and (max-width: 1694px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
     font-size:3.5vh;
@@ -123,7 +127,7 @@
 }
 @media only screen and (max-width: 1080px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:2.5vh;
+    font-size:2.0vh;
   }
   #pH2, #pH5 {
     top:3rem;
