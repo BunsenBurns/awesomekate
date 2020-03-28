@@ -42,7 +42,7 @@
 
 #pH1 {
   transform: rotate(-20deg);
-  font-size:5vh;
+  font-size:4.5vh;
   margin-left:auto;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
@@ -52,7 +52,7 @@
 }
 #pH2 {
   transform: rotate(-10deg);
-  font-size:5vh;
+  font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:absolute;
@@ -61,7 +61,7 @@
 }
 #pH3{
   transform: rotate(-5deg);
-  font-size:5vh;
+  font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:absolute;
@@ -70,7 +70,7 @@
 }
 #pH4 {
   transform: rotate(5deg);
-  font-size:5vh;
+  font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:absolute;
@@ -79,7 +79,7 @@
 }
 #pH5 {
   transform: rotate(10deg);
-  font-size:5vh;
+  font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:absolute;
@@ -88,7 +88,7 @@
 }
 #pH6 {
   transform: rotate(20deg);
-  font-size:5vh;
+  font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:absolute;
@@ -113,12 +113,12 @@
 }
 @media only screen and (max-width: 1694px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:4.0vh;
+    font-size:3.5vh;
   }
 }
 @media only screen and (max-width: 1198px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:4vh;
+    font-size:3.5vh;
   }
 }
 @media only screen and (max-width: 1080px) {
