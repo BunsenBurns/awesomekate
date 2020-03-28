@@ -92,6 +92,7 @@
 #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
   margin: 0 auto;
   color:white;
+  border-radius:10%;
 }
 #pH1, #pH6 {
   top:9rem;
