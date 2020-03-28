@@ -39,6 +39,17 @@
   color:rgb(238, 104, 155);
 }
 /* End Footer */
+#oneClick,#twoClick,#threeClick,#fourClick,#fiveClick,#sixClick {
+  margin: 0 30% 0 30%;
+  font-size:3vh;
+  background-color: rgba(165, 177, 165, 0.7); 
+  padding:10rem 1rem;
+  margin-top:-5rem;
+  border-radius: 15px 50px;
+  -webkit-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
+  box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
+}
 
 #pH1 {
   transform: rotate(-20deg);

@@ -26,11 +26,11 @@
 <!--Start Navigation Bar-->
 <div class="main-container">
 <!--Start Container-->
-<div class="jumbotron" style="background-image:url(https://img.mfcimg.com/photos2/106/10681348/829-351-817-513-11688944.png); background-size:cover; background-position:center;  height:100vh; border-radius:0px; border-bottom: white 3px solid">
+<div class="jumbotron" style="background-image:url(https://img.mfcimg.com/photos2/106/10681348/829-351-817-513-11688944.png); background-size:cover; background-position:top;  height:100vh; border-radius:0px; border-bottom: white 3px solid">
   <div id="showWhenSmall">
     When screen is small, this shows instead. It's a placeholder! Zoom out or open in desktop!
   </div>
-  <div id="hideWhenSmall">
+  <div id="hideWhenSmall" class="mt-5">
   <div class="row justify-content-center" style="height:50vh;">
   <div class="col-md-2 col-xs-12 text-center">
     <h3 class="shadow-md" onclick="oneToMid()" id="pH1">PlacHold</h3>
@@ -51,8 +51,10 @@
     <h3 onclick="sixToMid()" id="pH6">ClickMe</h3>
   </div>
 </div>
-<div class="row-12 text-center" style="font-size:4vh; background-color:white;">
+<div class="row-12 text-center">
+
   <p id="oneClick" style="display:none; transition: all 1s;">You Clicked 1st ClickTest</p>
+
 <p id="twoClick" style="display:none; transition: all 1s;">You Clicked 2nd Thing</p>
 <p id="threeClick" style="display:none; transition: all 1s;">You Clicked 3rd ClickTest</p>
 <p id="fourClick" style="display:none; transition: all 1s;">You Clicked 4th ClickTest</p>
