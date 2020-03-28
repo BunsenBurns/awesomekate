@@ -46,7 +46,7 @@
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
-  color:black;
+
 }
 #pH2 {
   transform: rotate(-10deg);
@@ -54,7 +54,7 @@
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
-  color:black;
+
 }
 #pH3{
   transform: rotate(-5deg);
@@ -62,7 +62,7 @@
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
-  color:black;
+
 }
 #pH4 {
   transform: rotate(5deg);
@@ -70,7 +70,7 @@
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
-  color:black;
+
 }
 #pH5 {
   transform: rotate(10deg);
@@ -78,7 +78,7 @@
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
-  color:black;
+
 }
 #pH6 {
   transform: rotate(20deg);
@@ -87,11 +87,11 @@
   transition: all 0.5s;
   position:relative;
 
-  color:black;
 }
 
 #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
   margin: 0 auto;
+  color:white;
 }
 #pH1, #pH6 {
   top:9rem;
