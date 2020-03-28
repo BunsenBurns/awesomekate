@@ -93,6 +93,7 @@
   margin: 0 auto;
   color:white;
   border-radius:10%;
+  text-shadow: 1px 1px 11px rgba(0,0,0,0.77);
 }
 #pH1, #pH6 {
   top:9rem;
