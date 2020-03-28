@@ -43,10 +43,9 @@
 #pH1 {
   transform: rotate(-20deg);
   font-size:4.5vh;
-  margin-left:auto;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
-  position:absolute;
+  position:relative;
   top:0vh;
   color:black;
 }
@@ -55,7 +54,7 @@
   font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
-  position:absolute;
+  position:relative;
   top:0vh;
   color:black;
 }
@@ -64,7 +63,7 @@
   font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
-  position:absolute;
+  position:relative;
   top:0vh;
   color:black;
 }
@@ -73,7 +72,7 @@
   font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
-  position:absolute;
+  position:relative;
   top:0vh;
   color:black;
 }
@@ -82,7 +81,7 @@
   font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
-  position:absolute;
+  position:relative;
   top:0vh;
   color:black;
 }
@@ -91,17 +90,21 @@
   font-size:4.5vh;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
-  position:absolute;
+  position:relative;
   top:0vh;
   color:black;
 }
 
+#pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
+  margin: 0 auto;
+}
 #pH1, #pH6 {
   top:9rem;
 }
 #pH2, #pH5 {
   top:3rem;
 }
+
 @media only screen and (max-width: 767px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
     transform:rotate(0deg);
@@ -117,17 +120,18 @@
   }
 @media only screen and (max-width: 1694px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:3.5vh;
+    font-size:3.0vh;
   }
 }
 @media only screen and (max-width: 1198px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:3.5vh;
+    font-size:2.5vh;
   }
 }
 @media only screen and (max-width: 1080px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:2.0vh;
+    font-size:1.5vh;
+
   }
   #pH2, #pH5 {
     top:3rem;
@@ -145,12 +149,17 @@
   
   }
 
-
+  #pH1:hover,#pH6:hover {
+    top:10rem;
+    cursor:pointer;
+   }
 #pH2:hover,#pH5:hover {
  top:4rem;
+ cursor:pointer;
 }
 #pH3:hover,#pH4:hover {
  top:1rem;
+ cursor:pointer;
 
 }
 }
