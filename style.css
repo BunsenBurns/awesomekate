@@ -79,7 +79,7 @@
   transition: color 0.25s ease-in-out;
 }
 .footerButton:hover {
-  color:rgb(238, 104, 155);
+  color:rgb(183, 132, 190);
 }
 /* End Footer */
 #oneClick,#twoClick,#threeClick,#fourClick,#fiveClick,#sixClick {
@@ -89,7 +89,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: thin;
   color:white;
-  background-color: rgba(66, 92, 66, 0.75); 
+  background-color: rgba(58, 82, 58, 0.75); 
   padding:1rem 1rem;
   margin-top:-10rem;
   border-radius: 15px 50px;
