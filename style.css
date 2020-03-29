@@ -89,6 +89,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: thin;
   color:white;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3); 
   background-color: rgba(58, 82, 58, 0.75); 
   padding:1rem 1rem;
   margin-top:-10rem;
