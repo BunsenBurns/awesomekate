@@ -29,8 +29,8 @@
   <!-- A grey horizontal navbar that becomes vertical on small screens -->
   <div class="fixed-top">
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end" style="border-bottom:0.05rem white solid; background-image:linear-gradient(black,rgb(44, 44, 44));">
-    <a class="navbar-brand" href="#">Home</a>
-    <button class="btn btn-success ml-auto mr-1">Always Show</button>
+    <a class="navbar-brand" href="#">OnlyFans</a>
+    <button class="btn btn-success ml-auto mr-1">Click Here to Tip Me Offline</button>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -62,23 +62,23 @@
   </div>
   <div id="hideWhenSmall" class="mt-5">
   <div class="row justify-content-center" style="height:50vh;">
-  <div class="col-md-2 col-xs-12 text-center">
-    <h3 class="shadow-md" onclick="oneToMid()" id="pH1">PlacHold</h3>
+  <div onclick="oneToMid()" class="col-md-2 col-xs-12 text-center">
+    <h3 class="shadow-md" id="pH1">PlacHold</h3>
   </div>
-  <div class="col-md-2 col-xs-12 text-center">
-    <h3 onclick="twoToMid()" id="pH2">PlacHold</h3>
+  <div onclick="twoToMid()" class="col-md-2 col-xs-12 text-center">
+    <h3  id="pH2">PlacHold</h3>
   </div>
-  <div class="col-md-2 col-xs-12 text-center">
-    <h3 onclick="threeToMid()" id="pH3">PlacHold</h3>
+  <div onclick="threeToMid()"  class="col-md-2 col-xs-12 text-center">
+    <h3 id="pH3">PlacHold</h3>
   </div>
-  <div class="col-md-2 col-xs-12 text-center">
-    <h3 onclick="fourToMid()" id="pH4">PlacHold</h3>
+  <div onclick="fourToMid()" class="col-md-2 col-xs-12 text-center">
+    <h3  id="pH4">PlacHold</h3>
   </div>
-  <div class="col-md-2 col-xs-12 text-center" >
-    <h3 onclick="fiveToMid()" id="pH5">PlacHold</h3>
+  <div onclick="fiveToMid()" class="col-md-2 col-xs-12 text-center" >
+    <h3  id="pH5">PlacHold</h3>
   </div>
-  <div class="col-md-2 col-xs-12 text-center">
-    <h3 onclick="sixToMid()" id="pH6">ClickMe</h3>
+  <div onclick="sixToMid()" class="col-md-2 col-xs-12 text-center">
+    <h3  id="pH6">ClickMe</h3>
   </div>
 </div>
 <div class="row-12 text-center">
@@ -110,7 +110,7 @@
 <script src="vimeo.js"></script>
 <script>
   function sixToMid() {
-    document.getElementById('pH6').style.cssText = "background-color: purple; color: white;";
+    document.getElementById('pH6').style.cssText = "  transform: rotate(20deg); animation: float 2s infinite; background-color:rgba(90, 0, 158, 0.45); text-shadow: 0px 0px 17px #FFFFFF; color: white;";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH3').style.cssText = "background-color: none; color: white;";

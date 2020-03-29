@@ -2,6 +2,23 @@
   display:none;
 
 }
+
+@keyframes float {
+  0% {
+    transform: rotate(20deg);
+    top:9rem;
+}
+50% {
+
+  top:10rem;
+}
+100% {
+
+  top:9rem;
+}
+}
+
+
 /* Footer */
 
 * {
@@ -103,7 +120,7 @@
 #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
   margin: 0 auto;
   color:white;
-  border-radius:10%;
+  border-radius:10px;
   text-shadow: 1px 1px 11px rgba(0,0,0,0.77);
 }
 #pH1, #pH6 {
@@ -114,6 +131,7 @@
 }
 #pH2, #pH5 {
   top:3rem;
+  transition: all 0.5s;
 }
 
 @media only screen and (max-width: 767px) {
