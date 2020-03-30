@@ -92,7 +92,7 @@
   border: 0.1rem solid rgba(23, 7, 36, 0.405);
   background-color: rgba(58, 82, 58, 0.75); 
   padding:1rem 1rem;
-  margin-top:-10rem;
+  margin-top:-5rem;
   border-radius: 15px 50px;
   -webkit-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
@@ -187,7 +187,7 @@
 }
 @media only screen and (max-width: 1694px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:3.0rem;
+    font-size:2.5rem;
   }
 }
 @media only screen and (max-width: 1198px) {
