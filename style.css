@@ -21,29 +21,29 @@
 @keyframes float5 {
   0% {
 
-    top:3rem;
+    top:-10rem;
 }
 50% {
 
-  top:4rem;
+  top:-11rem;
 }
 100% {
 
-  top:3rem;
+  top:-10rem;
 }
 }
 @keyframes float4 {
   0% {
 
-    top:0rem;
+    top:-20rem;
 }
 50% {
 
-  top:1rem;
+  top:-21rem;
 }
 100% {
 
-  top:0rem;
+  top:-20rem;
 }
 }
 
@@ -102,17 +102,17 @@
 }
 
 #pH1 {
-  transform: rotate(-20deg);
+  transform: rotate(-50deg);
 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
   transition: all 0.5s;
   position:relative;
 
 }
 #pH2 {
-  transform: rotate(-10deg);
+  transform: rotate(-35deg);
 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
   transition: all 0.5s;
   position:relative;
 
@@ -120,7 +120,6 @@
 #pH3{
   transform: rotate(-5deg);
 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
 
@@ -128,23 +127,21 @@
 #pH4 {
   transform: rotate(5deg);
 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
   transition: all 0.5s;
   position:relative;
 
 }
 #pH5 {
-  transform: rotate(10deg);
+  transform: rotate(35deg);
 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
 
 }
 #pH6 {
-  transform: rotate(20deg);
+  transform: rotate(50deg);
 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: all 0.5s;
   position:relative;
 
@@ -153,7 +150,9 @@
 #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
   margin: 0 auto;
   color:white;
+  font-family: 'Almendra Display', cursive;
   font-size: 3rem;
+  font-weight: 900;
   border-radius:10px;
   text-shadow: 1px 1px 11px rgba(0,0,0,0.77);
 }
@@ -161,10 +160,10 @@
   top:9rem;
 }
 #pH3, #pH4 {
-  top:0rem;
+  top:-20rem;
 }
 #pH2, #pH5 {
-  top:3rem;
+  top:-10rem;
   transition: all 0.5s;
 }
 
