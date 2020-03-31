@@ -240,11 +240,11 @@
 }
 @media only screen and (max-width: 1080px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:1.5rem;
+    font-size:3.0rem;
 
   }
   #pH2, #pH5 {
-    top:3rem;
+
   }
 }
 @media only screen and (max-width: 767px) {
