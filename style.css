@@ -3,87 +3,51 @@
 
 }
 
-
-
+/* Float Animation */
 @keyframes float {
   0% {
     top:9rem;
 }
-50% {
-
-  top:10rem;
+  50% {
+    top:10rem;
 }
-100% {
-
-  top:9rem;
+  100% {
+    top:9rem;
 }
 }
 @keyframes float5 {
   0% {
-
     top:-10rem;
 }
-50% {
-
-  top:-11rem;
+  50% {
+    top:-11rem;
 }
-100% {
-
-  top:-10rem;
+  100% {
+    top:-10rem;
 }
 }
 @keyframes float4 {
   0% {
-
     top:-20rem;
 }
-50% {
-
-  top:-21rem;
+  50% {
+    top:-21rem;
 }
-100% {
-
-  top:-20rem;
+  100% {
+    top:-20rem;
 }
 }
 
-/* Footer */
-
-* {
-  box-sizing: border-box;
- }
- *:before,
- *:after {
-  box-sizing: border-box;
- }
- html,
- body {
-  height: 100%;
-  position: relative;
- }
- .main-container {
-  min-height: 100vh; /* will cover the 100% of viewport */
-  overflow: hidden;
-  display: block;
-  position: relative;
-  padding-bottom: 5rem; /* height of your footer */
- }
- footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height:5rem;
- }
-
-
+/*Emphasize Text on Hover */
 .footerButton {
   color:white;
   transition: color 0.25s ease-in-out;
 }
 .footerButton:hover {
-  color:rgb(183, 132, 190);
+  text-shadow: 0px 0px 17px #FFFFFF;
+  color:white;
 }
-/* End Footer */
+
 #oneClick,#twoClick,#threeClick,#fourClick,#fiveClick,#sixClick {
   margin: 0 30% 0 30%;
   position:relative;
@@ -121,82 +85,36 @@
 }
 #pH1 {
   transform: rotate(-50deg);
-
-
-  transition: all 0.5s;
-  position:relative;
-
 }
 #pH2 {
   transform: rotate(-35deg);
-
-
-  transition: all 0.5s;
-  position:relative;
-
 }
 #pH3{
   transform: rotate(-5deg);
-
-  transition: all 0.5s;
-  position:relative;
-
 }
 #pH4 {
   transform: rotate(5deg);
-
-
-  transition: all 0.5s;
-  position:relative;
-
 }
 #pH5 {
   transform: rotate(35deg);
-
-  transition: all 0.5s;
-  position:relative;
-
 }
 #pH6 {
   transform: rotate(50deg);
-
-  transition: all 0.5s;
-  position:relative;
-
 }
 
 #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-  margin: 0 auto;
   color:white;
   font-family: 'Almendra Display', cursive;
   font-size: 3rem;
   font-weight: bolder;
-  border-radius:10px;
+  border-radius:10%;
   text-shadow: 1px 1px 11px rgba(0,0,0,0.77);
-  background-color:rgba(138, 21, 21, 0.0);
   transition: all 1s;
+  position:relative;
   padding:40px 0px;
 }
 #itemOne, #itemTwo, #itemThree, #itemFour, #itemFive, #itemSix {
-  padding:100px 0px;
-}
-#itemOne:hover #pH1 {
-  animation: float 2s infinite;   text-shadow: 0px 0px 17px #FFFFFF; color: white;"
-}
-#itemTwo:hover #pH2 {
-  animation: float 2s infinite;   text-shadow: 0px 0px 17px #FFFFFF; color: white;"
-}
-#itemThree:hover #pH3 {
-  animation: float 2s infinite;  text-shadow: 0px 0px 17px #FFFFFF; color: white;"
-}
-#itemFour:hover #pH4 {
-   animation: float 2s infinite;  text-shadow: 0px 0px 17px #FFFFFF; color: white;"
-}
-#itemFive:hover #pH5 {
-   animation: float 2s infinite; text-shadow: 0px 0px 17px #FFFFFF; color: white;"
-}
-#itemSix:hover #pH6 {
-   animation: float 2s infinite;  text-shadow: 0px 0px 17px #FFFFFF; color: white;"
+  padding:10px 0px;
 }
 #pH1, #pH6 {
   top:9rem;
@@ -225,28 +143,10 @@
 }
 @media only screen and (max-width: 1920px) {
   #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:3.0rem;
+    font-size:3rem;
   }
 }
-@media only screen and (max-width: 1694px) {
-  #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:2.5rem;
-  }
-}
-@media only screen and (max-width: 1198px) {
-  #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:2.5rem;
-  }
-}
-@media only screen and (max-width: 1080px) {
-  #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:3.0rem;
 
-  }
-  #pH2, #pH5 {
-
-  }
-}
 @media only screen and (max-width: 767px) {
   #hideWhenSmall {
     display:none;
