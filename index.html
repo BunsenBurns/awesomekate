@@ -72,24 +72,25 @@
   <div id="showWhenSmall">
     When screen is small, this shows instead. It's a placeholder! Zoom out or open in desktop!
   </div>
-  <div id="hideWhenSmall" class="mt-5">
-  <div class="row justify-content-center" style="margin-top:35vh; height:50vh;">
-  <div onmouseover="oneToMid()" onclick="location='https://www.onlyfans.com/awesomekate'" class="col-md-2 col-xs-12 text-center">
-    <h3 class="shadow-md" id="pH1" style="border:rgba(110, 121, 112, 0.75) 0.1rem solid; animation: float 2s infinite; background-image:linear-gradient(rgba(245, 6, 6, 0.4),rgba(36, 3, 3, 0.8)); text-shadow: 0px 0px 17px #FFFFFF; color: white;">OnlyFans</h3>
+  <div id="hideWhenSmall">
+  
+  <div class="row justify-content-center" style="margin-top:25vh; height:50vh;">
+  <div onmouseover="oneToMid()" id="itemOne" onclick="location='https://www.onlyfans.com/awesomekate'" class="col-md-2 col-xs-12 text-center">
+    <h3 class="shadow-md" id="pH1" style="animation: float 2s infinite; ">OnlyFans</h3>
   </div>
-  <div onmouseover="twoToMid()" onclick="location='https://awesomekate.com/pornhub'" class="col-md-2 col-xs-12 text-center">
+  <div onmouseover="twoToMid()" id="itemTwo" onclick="location='https://awesomekate.com/pornhub'" class="col-md-2 col-xs-12 text-center">
     <h3  id="pH2">PornHub</h3>
   </div>
-  <div onmouseover="threeToMid()" onclick="location='https://awesomekate.com/discord'" class="col-md-2 col-xs-12 text-center">
+  <div onmouseover="threeToMid()" id="itemThree" onclick="location='https://awesomekate.com/discord'" class="col-md-2 col-xs-12 text-center">
     <h3 id="pH3">Discord</h3>
   </div>
-  <div onmouseover="fourToMid()" onclick="location='https://fancentro.com/AwesomeKate'" class="col-md-2 col-xs-12 text-center">
+  <div onmouseover="fourToMid()" id="itemFour" onclick="location='https://fancentro.com/AwesomeKate'" class="col-md-2 col-xs-12 text-center">
     <h3  id="pH4">Snapchat</h3>
   </div>
-  <div onmouseover="fiveToMid()" onclick="location='http://a.co/c2YSdzK'" class="col-md-2 col-xs-12 text-center" >
+  <div onmouseover="fiveToMid()" id="itemFive" onclick="location='http://a.co/c2YSdzK'" class="col-md-2 col-xs-12 text-center" >
     <h3  id="pH5">Wishlist</h3>
   </div>
-  <div onmouseover="sixToMid()" onclick="location='https://share.myfreecams.com/AwesomeKate'" class="col-md-2 col-xs-12 text-center">
+  <div onmouseover="sixToMid()" id="itemSix"  onclick="location='https://share.myfreecams.com/AwesomeKate'" class="col-md-2 col-xs-12 text-center">
     <h3  id="pH6">MFC Share</h3>
   </div>
 </div>
@@ -220,7 +221,7 @@
 <script src="vimeo.js"></script>
 <script> 
   function sixToMid() {
-    document.getElementById('pH6').style.cssText = "border:rgba(110, 121, 112, 0.75) 0.1rem solid; animation: float 2s infinite; background-image:linear-gradient(rgba(119, 12, 133, 0.7),rgba(78, 12, 75, 0.5));  text-shadow: 0px 0px 17px #FFFFFF; color: white;";
+    document.getElementById('pH6').style.cssText = "animation: float 2s infinite;";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH3').style.cssText = "background-color: none; color: white;";
@@ -234,7 +235,7 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function fiveToMid() {
-    document.getElementById('pH5').style.cssText = "border:rgba(110, 121, 112, 0.75) 0.1rem solid; animation: float5 2s infinite; background-image:linear-gradient(rgba(15, 65, 144, 0.7),rgba(12, 24, 78, 0.5)); text-shadow: 0px 0px 17px #FFFFFF; color: white;";
+    document.getElementById('pH5').style.cssText = "animation: float5 2s infinite;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH3').style.cssText = "background-color: none; color: white;";
@@ -248,7 +249,7 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function fourToMid() {
-    document.getElementById('pH4').style.cssText = "  border:rgba(110, 121, 112, 0.75) 0.1rem solid; animation: float4 2s infinite; background-image:linear-gradient(rgba(31, 124, 28, 0.7),rgba(14, 78, 12, 0.5)); text-shadow: 0px 0px 17px #FFFFFF; color: white;";
+    document.getElementById('pH4').style.cssText = "animation: float4 2s infinite;";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH3').style.cssText = "background-color: none; color: white;";
@@ -262,7 +263,7 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function threeToMid() {
-    document.getElementById('pH3').style.cssText = "border:rgba(110, 121, 112, 0.75) 0.1rem solid; animation: float4 2s infinite; background-image:linear-gradient(rgba(248, 212, 6, 0.7),rgba(87, 73, 13, 0.5)); text-shadow: 0px 0px 17px #FFFFFF; color: white;";
+    document.getElementById('pH3').style.cssText = "animation: float4 2s infinite";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
@@ -276,7 +277,7 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function twoToMid() {
-    document.getElementById('pH2').style.cssText = "border:rgba(110, 121, 112, 0.75) 0.1rem solid; animation: float5 2s infinite; background-image:linear-gradient(rgba(245, 121, 6, 0.4),rgba(36, 3, 3, 0.5)); text-shadow: 0px 0px 17px #FFFFFF; color: white;";
+    document.getElementById('pH2').style.cssText = "animation: float5 2s infinite;";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
@@ -289,8 +290,8 @@
     document.getElementById('threeClick').style.cssText = "display:none;";
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
-  function oneToMid() { 
-    document.getElementById('pH1').style.cssText = "border:rgba(110, 121, 112, 0.75) 0.1rem solid; animation: float 2s infinite; background-image:linear-gradient(rgba(245, 6, 6, 0.4),rgba(36, 3, 3, 0.5)); text-shadow: 0px 0px 17px #FFFFFF; color: white;";
+  function oneToMid() {
+    document.getElementById('pH1').style.cssText = "animation: float 2s infinite;";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
@@ -308,4 +309,6 @@
 
 </body>
 </html>
-
+<script>
+  
+</script>
