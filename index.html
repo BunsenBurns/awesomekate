@@ -25,58 +25,16 @@
 <!-- https://img.mfcimg.com/photos2/106/10681348/829-351-817-513-11688944.png -->
 <!--Start Body-->
 <body style="background-color: black">
-<!--Start Navigation Bar-->
-  <!-- Navigation Bar-->
-  <!-- A grey horizontal navbar that becomes vertical on small screens -->
-  <div class="fixed-top">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center" style="display: none; border-bottom:0.05rem white solid; background-image:linear-gradient(black,rgb(44, 44, 44));">
-
-    <a href="http://www.myfreecams.com/mfc2/php/tip.php?request=tip&broadcaster_id=10681348"><button class="btn btn-success ml-auto mr-1">Click Here to Tip Me Offline</button></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-        <ul class="navbar-nav text-left">
-          <li class="nav-item">
-            <a class="nav-link" href="https://onlyfans.com/awesomekate">OnlyFans</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://awesomekate.com/pornhub">PornHub</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://awesomekate.com/discord">Discord</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://fancentro.com/AwesomeKate">Snapchat</i>
-      
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://a.co/c2YSdzK">Wishlist</i>
-      
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://share.myfreecams.com/AwesomeKate">MFC Share</i>
-      
-            </a>
-          </li>
-         
-        </ul>
-    </div>
-</nav>
-</div>
 <!--Start Container-->
-
-<div class="jumbotron" style="background-color:black; background-image:url(bg.png); background-size:auto;   background-position: center;  background-repeat:no-repeat;  height:100vh;">
+<div class="jumbotron" style="background-color:black; background-image:url(bg.png);  background-size:auto; background-position: center;  background-repeat:no-repeat;  height:100vh;">
   <div id="showWhenSmall">
     When screen is small, this shows instead. It's a placeholder! Zoom out or open in desktop!
   </div>
   <div id="hideWhenSmall">
   
   <div class="row justify-content-center" style="margin-top:25vh; height:50vh;">
-  <div onmouseover="oneToMid()" id="itemOne" onclick="location='https://www.onlyfans.com/awesomekate'" class="col-md-2 col-xs-12 text-center">
-    <h3 class="shadow-md" id="pH1" style="animation: float 2s infinite; animation: float 2s infinite; background-color:rgba(85, 13, 13, 0.8);box-shadow: 0px 0px 17px rgb(136, 28, 28); text-shadow: 0px 0px 17px #FFFFFF; color: white; ">OnlyFans</h3>
+  <div onmouseover="oneToMid()" id="itemOne" style="animation: float 2s infinite;" onclick="location='https://www.onlyfans.com/awesomekate'" class="col-md-2 col-xs-12 text-center">
+    <h3 class="shadow-md" id="pH1" style="  background-color:rgba(85, 13, 13, 0.8);box-shadow: 0px 0px 17px rgb(136, 28, 28); text-shadow: 0px 0px 17px #FFFFFF; color: white; ">OnlyFans</h3>
   </div>
   <div onmouseover="twoToMid()" id="itemTwo" onclick="location='https://awesomekate.com/pornhub'" class="col-md-2 col-xs-12 text-center">
     <h3  id="pH2">PornHub</h3>
@@ -221,7 +179,13 @@
 <script src="vimeo.js"></script>
 <script> 
   function sixToMid() {
-    document.getElementById('pH6').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; animation: float 2s infinite; box-shadow: 0px 0px 17px rgb(120, 28, 136); background-color:rgba(139, 21, 139, 0.6);";
+    document.getElementById('pH6').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF;  box-shadow: 0px 0px 17px rgb(120, 28, 136); background-color:rgba(139, 21, 139, 0.6);";
+    document.getElementById('itemSix').style.cssText = "animation: float 2s infinite;"; 
+    document.getElementById('itemFive').style.cssText = "animation: none";
+    document.getElementById('itemFour').style.cssText = "animation: none";
+    document.getElementById('itemThree').style.cssText = "animation: none";
+    document.getElementById('itemTwo').style.cssText = "animation: none";
+    document.getElementById('itemOne').style.cssText = "animation: none";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH3').style.cssText = "background-color: none; color: white;";
@@ -235,7 +199,13 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function fiveToMid() {
-    document.getElementById('pH5').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; animation: float5 2s infinite; box-shadow: 0px 0px 17px rgb(38, 50, 177); background-color:rgba(12, 46, 158, 0.6); ";
+    document.getElementById('pH5').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF;  box-shadow: 0px 0px 17px rgb(38, 50, 177); background-color:rgba(12, 46, 158, 0.6); ";
+    document.getElementById('itemSix').style.cssText = "animation: none"; 
+    document.getElementById('itemFive').style.cssText = "animation: float 2s infinite;";
+    document.getElementById('itemFour').style.cssText = "animation: none";
+    document.getElementById('itemThree').style.cssText = "animation: none";
+    document.getElementById('itemTwo').style.cssText = "animation: none";
+    document.getElementById('itemOne').style.cssText = "animation: none";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH3').style.cssText = "background-color: none; color: white;";
@@ -249,7 +219,13 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function fourToMid() {
-    document.getElementById('pH4').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; animation: float4 2s infinite; background-color:rgba(27, 117, 9, 0.719); box-shadow: 0px 0px 17px rgb(33, 136, 28);";
+    document.getElementById('pH4').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF;  background-color:rgba(27, 117, 9, 0.719); box-shadow: 0px 0px 17px rgb(33, 136, 28);";
+    document.getElementById('itemSix').style.cssText = "animation: none"; 
+    document.getElementById('itemFour').style.cssText = "animation: float 2s infinite;";
+    document.getElementById('itemFive').style.cssText = "animation: none";
+    document.getElementById('itemThree').style.cssText = "animation: none";
+    document.getElementById('itemTwo').style.cssText = "animation: none";
+    document.getElementById('itemOne').style.cssText = "animation: none";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH3').style.cssText = "background-color: none; color: white;";
@@ -263,7 +239,13 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function threeToMid() {
-    document.getElementById('pH3').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; animation: float4 2s infinite; background-color:rgba(238, 196, 10, 0.6); box-shadow: 0px 0px 17px rgb(177, 147, 16);  ";
+    document.getElementById('pH3').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; background-color:rgba(238, 196, 10, 0.6); box-shadow: 0px 0px 17px rgb(177, 147, 16);  ";
+    document.getElementById('itemSix').style.cssText = "animation: none"; 
+    document.getElementById('itemThree').style.cssText = "animation: float 2s infinite;";
+    document.getElementById('itemFour').style.cssText = "animation: none";
+    document.getElementById('itemFive').style.cssText = "animation: none";
+    document.getElementById('itemTwo').style.cssText = "animation: none";
+    document.getElementById('itemOne').style.cssText = "animation: none";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
@@ -277,7 +259,13 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function twoToMid() {
-    document.getElementById('pH2').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; animation: float5 2s infinite; box-shadow: 0px 0px 17px rgb(151, 89, 8); background-color:rgba(190, 109, 16, 0.6);";
+    document.getElementById('pH2').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; box-shadow: 0px 0px 17px rgb(151, 89, 8); background-color:rgba(190, 109, 16, 0.6);";
+    document.getElementById('itemSix').style.cssText = "animation: none"; 
+    document.getElementById('itemTwo').style.cssText = "animation: float 2s infinite;";
+    document.getElementById('itemFour').style.cssText = "animation: none";
+    document.getElementById('itemThree').style.cssText = "animation: none";
+    document.getElementById('itemFive').style.cssText = "animation: none";
+    document.getElementById('itemOne').style.cssText = "animation: none";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";
@@ -291,7 +279,8 @@
     document.getElementById('oneClick').style.cssText = "display:none;";
   }
   function oneToMid() {
-    document.getElementById('pH1').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF; animation: float 2s infinite; background-color:rgba(85, 13, 13, 0.8);box-shadow: 0px 0px 17px rgb(136, 28, 28);";
+    document.getElementById('pH1').style.cssText = "text-shadow: 0px 0px 17px #FFFFFF;  background-color:rgba(85, 13, 13, 0.8);box-shadow: 0px 0px 17px rgb(136, 28, 28);";
+    document.getElementById('itemOne').style.cssText = "animation: float 2s infinite;";
     document.getElementById('pH5').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH6').style.cssText = "background-color: none; color: white;";
     document.getElementById('pH4').style.cssText = "background-color: none; color: white;";

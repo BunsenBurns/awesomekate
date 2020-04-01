@@ -6,35 +6,13 @@
 /* Float Animation */
 @keyframes float {
   0% {
-    top:9rem;
+    top:0rem;
 }
   50% {
-    top:10rem;
+    top:1rem;
 }
   100% {
-    top:9rem;
-}
-}
-@keyframes float5 {
-  0% {
-    top:-10rem;
-}
-  50% {
-    top:-11rem;
-}
-  100% {
-    top:-10rem;
-}
-}
-@keyframes float4 {
-  0% {
-    top:-20rem;
-}
-  50% {
-    top:-21rem;
-}
-  100% {
-    top:-20rem;
+    top:0rem;
 }
 }
 
@@ -117,13 +95,13 @@
   padding:10px 0px;
 }
 #pH1, #pH6 {
-  top:9rem;
+  top:45%;
 }
 #pH3, #pH4 {
-  top:-20rem;
+  top:-50%;
 }
 #pH2, #pH5 {
-  top:-10rem;
+  top:-25%;
   transition: all 0.5s;
 }
 
@@ -159,19 +137,7 @@
   
   }
 
-  #pH1:hover,#pH6:hover {
-    top:10rem;
-    cursor:pointer;
-   }
-#pH2:hover,#pH5:hover {
- top:4rem;
- cursor:pointer;
-}
-#pH3:hover,#pH4:hover {
- top:1rem;
- cursor:pointer;
 
-}
 }
 
 
