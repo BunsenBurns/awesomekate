@@ -29,7 +29,7 @@
 #oneClick,#twoClick,#threeClick,#fourClick,#fiveClick,#sixClick {
   margin: 0 30% 0 30%;
   position:relative;
-  font-size:3vh;
+  font-size:1vw;
   font-family: 'Roboto', sans-serif;
   font-weight: thin;
   color:white;
@@ -83,7 +83,7 @@
 #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
   color:white;
   font-family: 'Almendra Display', cursive;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: bolder;
   border-radius:10%;
   text-shadow: 1px 1px 11px rgba(0,0,0,0.77);
@@ -95,35 +95,16 @@
   padding:10px 0px;
 }
 #pH1, #pH6 {
-  top:45%;
+  top:10vw;
 }
 #pH3, #pH4 {
-  top:-50%;
+  top:-10vw;
 }
 #pH2, #pH5 {
-  top:-25%;
+  top:-2vw;
   transition: all 0.5s;
 }
 
-@media only screen and (max-width: 767px) {
-  #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    transform:rotate(0deg);
-    margin-top:0vh;
-    transition: all 0.5s;
-    position:absolute;
-    top:0vh;
-  }
-}
-@media only screen and (max-width: 5000px) {
-  #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:5rem;
-  }
-}
-@media only screen and (max-width: 1920px) {
-  #pH1, #pH2, #pH3, #pH4, #pH5, #pH6 {
-    font-size:3rem;
-  }
-}
 
 @media only screen and (max-width: 767px) {
   #hideWhenSmall {
