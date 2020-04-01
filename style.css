@@ -205,13 +205,28 @@ figure.snip1105:hover h33 {
   transform:translate(0%, -10%);
 }
 
-
+@media only screen and (min-width: 3500px) {
+  #marginTopChange  {
+    margin-top:400vh ;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  #marginTopChange  {
+    margin-top:400vh ;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  #marginTopChange  {
+    margin-top:25vh ;
+  }
+}
 @media only screen and (max-width: 1600px) {
   .imgHeaderText {
     font-size: 3rem;
     line-height:2.5rem;
 
 }
+
 figure.snip1105 h33 {
   top:10rem;
   font-size: 1.25rem;
