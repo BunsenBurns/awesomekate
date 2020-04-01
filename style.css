@@ -27,16 +27,15 @@
 }
 
 #oneClick,#twoClick,#threeClick,#fourClick,#fiveClick,#sixClick {
-  margin: 0 30% 0 30%;
+  width: 75vw;
   position:relative;
-  font-size:1vw;
+  font-size:2vw;
   font-family: 'Roboto', sans-serif;
   font-weight: thin;
   color:white;
+  margin-top:5vw;
   border: 0.1rem solid rgba(23, 7, 36, 0.405);
-
   padding:1rem 1rem;
-  margin-top:-5rem;
   border-radius: 15px 50px;
   -webkit-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
