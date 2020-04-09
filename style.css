@@ -27,8 +27,27 @@
   background-color:rgba(0, 0, 0, 0.561);
     border-top: rgba(255, 255, 255, 0.397) solid 0.1rem;
 }
+.btn1 {
+  background-color:rgba(85, 13, 13, 0.8) !important;
+  box-shadow: 0px 0px 17px rgb(136, 28, 28);
+}
+.btn2 {
+  box-shadow: 0px 0px 17px rgb(151, 89, 8); background-color:rgba(190, 109, 16, 0.6) !important;
+}
+.btn3 {
+  background-color:rgba(238, 196, 10, 0.6) !important; box-shadow: 0px 0px 17px rgb(177, 147, 16) !important;
+}
+.btn4 {
+  background-color:rgba(27, 117, 9, 0.719) !important; box-shadow: 0px 0px 17px rgb(33, 136, 28) !important;
+}
+.btn5 {
+  box-shadow: 0px 0px 17px rgb(38, 50, 177); background-color:rgba(12, 46, 158, 0.6) !important;
+}
+.btn6 {
+  box-shadow: 0px 0px 17px rgb(120, 28, 136); background-color:rgba(139, 21, 139, 0.6) !important;
+}
 .myaccordion .btn, .myaccordion .btn-link {
-  background-color:rgba(85, 13, 13, 0.8);box-shadow: 0px 0px 17px rgb(136, 28, 28);
+
   width: 100%;
   font-weight: bold;
   color:white;
@@ -37,7 +56,6 @@
   font-weight: bolder;
   border-radius:1%;
   padding:1rem;
-  background-color:rgba(85, 13, 13, 0.637);
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
   transition: all 1s;
   background-color:none;
@@ -46,7 +64,6 @@
 .myaccordion .btn:hover {
   color:white;
   text-shadow: 0px 0px 10px #FFFFFF;  
-  box-shadow: 0px 0px 17px rgb(136, 28, 28);
   
 }
 
