@@ -27,7 +27,7 @@
   background-color:rgba(0, 0, 0, 0.561);
     border-top: rgba(255, 255, 255, 0.397) solid 0.1rem;
 }
-.myaccordion .btn {
+.myaccordion .btn, .myaccordion .btn-link {
   background-color:rgba(85, 13, 13, 0.8);box-shadow: 0px 0px 17px rgb(136, 28, 28);
   width: 100%;
   font-weight: bold;
@@ -46,11 +46,14 @@
 .myaccordion .btn:hover {
   color:white;
   text-shadow: 0px 0px 10px #FFFFFF;  
+  box-shadow: 0px 0px 17px rgb(136, 28, 28);
+  
 }
 
 .myaccordion .btn-link:hover,
 .myaccordion .btn-link:focus {
   text-decoration: none;
+  
 }
 
 .myaccordion li + li {

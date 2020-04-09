@@ -33,7 +33,7 @@
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
             <button class="d-flex align-items-center justify-content-center btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              PlaceHold
+              PlaceHold1
 
             </button>
             
@@ -49,7 +49,7 @@
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
             <button class="d-flex align-items-center justify-content-center btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              PlaceHold
+              PlaceHold2
 
             </button>
           </h2>
@@ -64,12 +64,57 @@
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
             <button class="d-flex align-items-center justify-content-center btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              PlaceHold
+              PlaceHold3
 
             </button>
           </h2>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            PlaceHold
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-center btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              PlaceHold4
+
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            PlaceHold
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-center btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              PlaceHold5
+
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            PlaceHold
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-center btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              PlaceHold6
+
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
           <div class="card-body">
             PlaceHold
           </div>
@@ -293,12 +338,6 @@
     document.getElementById('threeClick').style.cssText = "display:none;";
     document.getElementById('twoClick').style.cssText = "display:none;";
   }
-  $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
-  $(e.target)
-    .prev()
-    .find("i:last-child")
-    .toggleClass("fa-minus fa-plus");
-});
 
   </script>
   <script>
