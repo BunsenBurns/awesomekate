@@ -28,7 +28,54 @@
 <!--Start Container-->
 <div class="jumbotron" style="background-color:black; background-image:url(bg.png);  background-size:cover; background-position: center; background-repeat:no-repeat;">
   <div id="showWhenSmall">
-    When screen is small, this shows instead. It's a placeholder! Zoom out or open in desktop!
+    <div id="accordion" class="myaccordion" style="background:none; width:100%;">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-center btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              PlaceHold
+
+            </button>
+            
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Placeholder
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-center btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              PlaceHold
+
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            PlaceHold
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-center btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              PlaceHold
+
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            PlaceHold
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="hideWhenSmall">
   
@@ -246,6 +293,13 @@
     document.getElementById('threeClick').style.cssText = "display:none;";
     document.getElementById('twoClick').style.cssText = "display:none;";
   }
+  $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
+  $(e.target)
+    .prev()
+    .find("i:last-child")
+    .toggleClass("fa-minus fa-plus");
+});
+
   </script>
   <script>
     // <![CDATA[

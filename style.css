@@ -1,3 +1,62 @@
+.myaccordion {
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+  background:none;
+}
+
+.myaccordion .card-header {
+  background: none;
+}
+
+#headingOne {
+  text-transform:uppercase !important; 
+  color:pink;
+}
+.myaccordion .fa-stack {
+  font-size: 18px;
+}
+
+.card-body {
+  color:white; 
+  background-color:rgba(0, 0, 0, 0.561);
+    border-top: rgba(255, 255, 255, 0.397) solid 0.1rem;
+}
+.myaccordion .btn {
+  background-color:rgba(85, 13, 13, 0.8);box-shadow: 0px 0px 17px rgb(136, 28, 28);
+  width: 100%;
+  font-weight: bold;
+  color:white;
+  font-family: 'Almendra Display', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  border-radius:1%;
+  padding:1rem;
+  background-color:rgba(85, 13, 13, 0.637);
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  transition: all 1s;
+  background-color:none;
+}
+
+.myaccordion .btn:hover {
+  color:white;
+  text-shadow: 0px 0px 10px #FFFFFF;  
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+
 #showWhenSmall {
   display:none;
 
