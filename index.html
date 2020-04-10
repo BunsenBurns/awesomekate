@@ -32,7 +32,7 @@
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
-            <button class="d-flex align-items-center justify-content-center btn btn1 btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button id="btn1" onclick="mobileOne()" class="d-flex align-items-center justify-content-center btn btn1 btn-link" style="animation: mobilefloat 2s infinite;   box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.507);" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               OnlyFans
 
             </button>
@@ -48,7 +48,7 @@
       <div class="card">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
-            <button class="d-flex align-items-center justify-content-center btn btn2 btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button id="btn2" onclick="mobileTwo()" class="d-flex align-items-center justify-content-center btn btn2 btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               PxxxHub
 
             </button>
@@ -63,7 +63,7 @@
       <div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
-            <button class="d-flex align-items-center justify-content-center btn btn3 btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button id="btn3" onclick="mobileThree()" class="d-flex align-items-center justify-content-center btn btn3 btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Discord
 
             </button>
@@ -78,7 +78,7 @@
       <div class="card">
         <div class="card-header" id="headingFour">
           <h2 class="mb-0">
-            <button class="d-flex align-items-center justify-content-center btn btn4 btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button id="btn4" onclick="mobileFour()" class="d-flex align-items-center justify-content-center btn btn4 btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               Snapchat
 
             </button>
@@ -93,7 +93,7 @@
       <div class="card">
         <div class="card-header" id="headingFive">
           <h2 class="mb-0">
-            <button class="d-flex align-items-center justify-content-center btn btn5  btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button id="btn5" onclick="mobileFive()" class="d-flex align-items-center justify-content-center btn btn5  btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               Wishlist
             </button>
           </h2>
@@ -107,7 +107,7 @@
       <div class="card">
         <div class="card-header" id="headingSix">
           <h2 class="mb-0">
-            <button class="d-flex align-items-center justify-content-center btn btn6 btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <button id="btn6" onclick="mobileSix()" class="d-flex align-items-center justify-content-center btn btn6 btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
               MFC Share
 
             </button>
@@ -336,6 +336,54 @@
     document.getElementById('fourClick').style.cssText = "display:none;";
     document.getElementById('threeClick').style.cssText = "display:none;";
     document.getElementById('twoClick').style.cssText = "display:none;";
+  }
+  function mobileOne() {
+    document.getElementById('btn1').style.cssText = "animation: mobilefloat 2s infinite;   box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.507);";
+    document.getElementById('btn2').style.cssText = "animation: none;";
+    document.getElementById('btn3').style.cssText = "animation: none;";
+    document.getElementById('btn4').style.cssText = "animation: none;";
+    document.getElementById('btn5').style.cssText = "animation: none;";
+    document.getElementById('btn6').style.cssText = "animation: none;";
+  }
+  function mobileTwo() {
+    document.getElementById('btn2').style.cssText = "animation: mobilefloat 2s infinite;   box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.507);";
+    document.getElementById('btn1').style.cssText = "animation: none;";
+    document.getElementById('btn3').style.cssText = "animation: none;";
+    document.getElementById('btn4').style.cssText = "animation: none;";
+    document.getElementById('btn5').style.cssText = "animation: none;";
+    document.getElementById('btn6').style.cssText = "animation: none;";
+  }
+  function mobileThree() {
+    document.getElementById('btn3').style.cssText = "animation: mobilefloat 2s infinite;   box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.507);";
+    document.getElementById('btn1').style.cssText = "animation: none;";
+    document.getElementById('btn2').style.cssText = "animation: none;";
+    document.getElementById('btn4').style.cssText = "animation: none;";
+    document.getElementById('btn5').style.cssText = "animation: none;";
+    document.getElementById('btn6').style.cssText = "animation: none;";
+  }
+  function mobileFour() {
+    document.getElementById('btn4').style.cssText = "animation: mobilefloat 2s infinite;   box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.507);";
+    document.getElementById('btn1').style.cssText = "animation: none;";
+    document.getElementById('btn3').style.cssText = "animation: none;";
+    document.getElementById('btn2').style.cssText = "animation: none;";
+    document.getElementById('btn5').style.cssText = "animation: none;";
+    document.getElementById('btn6').style.cssText = "animation: none;";
+  }
+  function mobileFive() {
+    document.getElementById('btn5').style.cssText = "animation: mobilefloat 2s infinite;   box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.507);";
+    document.getElementById('btn1').style.cssText = "animation: none;";
+    document.getElementById('btn3').style.cssText = "animation: none;";
+    document.getElementById('btn4').style.cssText = "animation: none;";
+    document.getElementById('btn2').style.cssText = "animation: none;";
+    document.getElementById('btn6').style.cssText = "animation: none;";
+  }
+  function mobileSix() {
+    document.getElementById('btn6').style.cssText = "animation: mobilefloat 2s infinite;   box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.507);";
+    document.getElementById('btn1').style.cssText = "animation: none;";
+    document.getElementById('btn3').style.cssText = "animation: none;";
+    document.getElementById('btn4').style.cssText = "animation: none;";
+    document.getElementById('btn5').style.cssText = "animation: none;";
+    document.getElementById('btn2').style.cssText = "animation: none;";
   }
 
   </script>

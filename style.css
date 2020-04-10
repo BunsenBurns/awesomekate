@@ -96,6 +96,18 @@
     top:0rem;
 }
 }
+/* Float Animation */
+@keyframes mobilefloat {
+  0% {
+    transform: translateY(0px);
+}
+  50% {
+    transform: translateY(10px);
+}
+  100% {
+    transform: translateY(0px);
+}
+}
 
 /*Emphasize Text on Hover */
 .footerButton {
