@@ -49,11 +49,10 @@
 .myaccordion .btn, .myaccordion .btn-link {
 
   width: 100%;
-  font-weight: bold;
   color:white;
   font-family: 'Almendra Display', sans-serif;
   font-size: 2rem;
-  font-weight: bolder;
+  font-weight:900;
   border-radius:1%;
   padding:1rem;
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
@@ -119,7 +118,7 @@
   color:white;
 }
 
-#oneClick,#twoClick,#threeClick,#fourClick,#fiveClick,#sixClick {
+#background {
   width: 75vw;
   position:relative;
   font-size:2vw;
@@ -127,14 +126,13 @@
   font-weight: thin;
   color:white;
   margin-top:5vw;
-  border: 0.1rem solid rgba(23, 7, 36, 0.405);
   padding:1rem 1rem;
   border-radius: 15px 50px;
-  -webkit-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
-  -moz-box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
-  box-shadow: 6px 7px 27px -11px rgba(0,0,0,0.75);
+  transition: all 1s ease-in-out;
+  box-shadow: 6px 7px 27px 11px rgba(71, 8, 8, 0.835);
 }
-
+6px 7px 27px 11px rgba(71, 8, 8, 0.835)
+/*
 #oneClick {
   background-color: rgba(138, 21, 21, 0.4); 
 }
@@ -152,7 +150,7 @@
 }
 #sixClick {
   background-color: rgba(98, 34, 117, 0.4); 
-}
+}*/
 #pH1 {
   transform: rotate(-50deg);
 }
