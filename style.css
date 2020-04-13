@@ -119,6 +119,7 @@
 }
 
 #background {
+  box-shadow: 6px 7px 27px 5px #470b80d5;
   width: 75vw;
   position:relative;
   font-size:2vw;
@@ -128,8 +129,7 @@
   margin-top:5vw;
   padding:1rem 1rem;
   border-radius: 15px 50px;
-  transition: all 1s ease-in-out;
-  box-shadow: 6px 7px 27px 11px rgba(71, 8, 8, 0.835);
+  transition: all 0.5s ease-in-out;
 }
 6px 7px 27px 11px rgba(71, 8, 8, 0.835)
 /*
